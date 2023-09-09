@@ -1,0 +1,76 @@
+body{
+    margin: 0%;
+    border: 0%;
+    
+}
+.nav-container{
+            
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: left;
+    height: 80px;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #D3D3D3 ;
+    box-shadow: 0px 0px 10px #D3D3D3 ;
+    position: sticky;
+    top: 0;
+   
+    
+}
+.nav-item{
+    padding: 16px 78px;
+    /* background-color: #fff; */
+}
+.logo{
+    width:130px;
+    font-size: 32px;
+    color: #0084ff;
+    font-family: Raleway,sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    padding-bottom: 0;
+   
+}
+.logo-stories{
+    margin: 0;
+    font-weight: 500;
+    font-family: Raleway;
+    font-style: italic;
+    padding-top: 0;
+    line-height: 0;
+}
+.drop-down-text{
+    color: #000;
+
+}
+.drop-down-icon{
+   
+    padding-left: 8px;
+    width: 12px;
+}
+.drop-down-text:hover{
+    cursor: pointer;
+}
+.nav-content{
+    width: 300px;
+    margin-left: 150px;
+}
+.nav-content p{
+    color: rgba(0,0,0,0.2);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17px;
+}
+.nav-btn{
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    background:  #0084ff;
+    border: none;
+    margin-left: 18px;
+}

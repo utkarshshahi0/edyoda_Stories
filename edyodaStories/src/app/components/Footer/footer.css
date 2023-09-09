@@ -1,0 +1,27 @@
+.footer-wrapper{
+    width: 100%;
+    background-color: #172746;
+    color: #fff;
+
+}
+.footer-flex-wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 70%;
+    padding: 20px, 0;
+    margin: 0px auto;
+    padding: 30px 0;
+    
+
+}
+.footer-coloum{
+    width: 20%;
+    padding: 20px;
+    
+}
+.footer-coloum p{
+    font-size: 13px;
+    font-weight: 300px;
+    line-height: 20px;
+}
